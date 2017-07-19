@@ -1,0 +1,358 @@
+nav{
+  width: 100%;
+  height: 44px;
+  background: linear-gradient(#1D61F1,#0C275D);
+  padding: 0 5px;
+  .toleft{
+    float: left;
+    .logo{
+      float: left;
+      width: 100px;
+      height: 44px;
+      background:url("../images/index/logo.png-2017.png") no-repeat center/contain;
+    }
+    .position{
+      line-height: 44px;
+      color: #fff;
+      margin-left: 10px;
+    }
+  }
+
+
+  .toright{
+    position: relative;
+    height: 100%;
+    padding:10px 0 10px 160px;
+    input::-webkit-input-placeholder{text-align: center; color:#fff}
+    input::-moz-placeholder{text-align: center; color:#fff}
+    span{
+      position: absolute;
+      right: 144px;
+      top: 18px;
+      color: #fff;
+    }
+    .search{
+      float: right;
+      color: #fff;
+      width: 140px;
+      border-radius: 12px;
+      height: 24px;
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    .login{
+      float: right;
+      height: 100%;
+      width: 40px;
+      line-height: 24px;
+      text-align: center;
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+}
+
+.banner{
+  width: 100%;
+  height: 130px;
+  .pic{
+    width: 100%;
+    height: 100%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.lead{
+  margin: 0;
+  padding: 20px 0;
+  background-color: #fff;
+  >.row{
+    margin: 0;
+    >li{
+      padding: 0;
+      height: 100px;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        .img{
+          width: 50px;
+          height: 50px;
+          margin: 5px auto;
+          >img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        >p{
+          color:#000;
+        }
+      }
+    }
+  }
+}
+
+.scrollNews{
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  padding: 0 5px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  >div{
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .fastCar{
+      float: left;
+      width: 66px;
+      height: 100%;
+      margin:0 20px 0 10px;
+      background:url("../images/index/mckb.png") no-repeat center/contain ;
+    }
+    >div{
+      height: 20px;
+      overflow: hidden;
+      .news{
+        position: relative;
+        top:0;
+        border-left: 1px solid #ccc;
+        height: 100%;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+.brand{
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0;
+  ul{
+    width: 100%;
+    overflow: hidden;
+    li{
+      float: left;
+      width: 20%;
+      height: 77px;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        .brandLogo{
+          width: 32px;
+          height: 32px;
+          margin: 5px auto;
+          >img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        >p{
+          color:#000;
+        }
+      }
+    }
+  }
+}
+
+.catgroy{
+  width: 100%;
+  background-color: #fff;
+  padding: 0 10px;
+  >ul{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    width: 100%;
+    overflow: hidden;
+    li{
+      float: left;
+      width: 20%;
+      height: 40px;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 40px;
+        text-align: center;
+        font-size: 13px;
+        color:#000;
+      }
+      .suv,.clo{
+        position: relative;
+        .hot{
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          background: url("../images/index/hot.png") no-repeat center/contain;
+          left: 8px;
+          top: 0;
+        }
+      }
+      .clo .hot{
+        left: -5px;
+      }
+
+    }
+  }
+  >p{
+    height: 44px;
+    text-align: center;
+    a{
+      display: inline-block;
+      margin: 0 auto;
+      height: 100%;
+      padding: 0 10px;
+      line-height: 44px;
+      color:#2350ac;
+    }
+  }
+}
+
+.recommend{
+  position: relative;
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 20px 10px 0px 10px;
+  h5{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .swiper-container {
+    width: 100%;
+    //height: 300px;
+    margin: 20px 0;
+    ul{
+      margin: 20px 0;
+      width: 100%;
+      overflow: hidden;
+      li{
+        float: left;
+        width: 50%;
+        height: 150px;
+        a{
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          .recommendCar{
+            width: 150px;
+            height: 100px;
+            margin: 5px auto;
+            >img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          >p:nth-of-type(1){
+            color:#343434;
+            font-weight: 700;
+          }
+          >p:nth-of-type(2){
+            color: #343434;
+            span{
+              color:#ff6200;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.buyRecommend{
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  >p{
+    padding: 10px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+    a{
+      float: right;
+    }
+  }
+  >ul{
+    li{
+      height:110px;
+      padding: 15px 0;
+      border-bottom: 1px solid #ccc;
+      position: relative;
+      .f-left{
+        width: 100%;
+        padding-right: 130px;
+        .name{
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .info{
+          line-height: 40px;
+          span:nth-of-type(2){
+            float: right;
+          }
+        }
+      }
+      .f-right-img{
+        position: absolute;
+        right: 0;
+        top: 15px;
+        float: right;
+        width: 120px;
+        height: 80px;
+        >img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  >div{
+    height: 44px;
+    text-align: center;
+    a{
+      display: inline-block;
+      margin: 0 auto;
+      height: 100%;
+      padding: 0 10px;
+      line-height: 44px;
+      color:#2350ac;
+    }
+  }
+}
+
+footer{
+  padding: 0 10px;
+  width: 100%;
+  height: 45px;
+  background: linear-gradient(#fff,#f4f4f4);
+  >p{
+    float: left;
+    a{
+      float: left;
+      display: block;
+      height: 100%;
+      margin: 0 10px;
+      line-height: 45px;
+      color:#1848a8
+    }
+  }
+  >a{
+    line-height: 45px;
+    float: right;
+    color:#1848a8
+  }
+}
+
+
+

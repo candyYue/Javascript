@@ -1,0 +1,85 @@
+.mian{
+  width: 100%;
+  background-color: #fff;
+  ul{
+    width: 100%;
+    li{
+      width: 100%;
+      height: 84px;
+      a{
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        height: 100%;
+        border-bottom: 1px solid #ccc;
+        .img{
+            margin:0 30px;
+            width: 90px;
+            height: 60px;
+            float: left;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+        .info{
+          p:nth-of-type(1){
+            font-size: 14px;
+            color: #000;
+            line-height: 25px;
+          }
+          p:nth-of-type(2),p:nth-of-type(3){
+            line-height: 20px;
+            span{
+              color:#ff6200;
+            }
+          }
+        }
+        .top-right{
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          font-size: 15px;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        .tip{
+          width: 17px;
+          height: 17px;
+          background:url("../images/hotList/rx_ico.png") no-repeat 0 -17px;
+          position: absolute;
+          top: 0;
+          left: 20px;
+          background-size: 17px auto;
+          color: #fff;
+          text-align: center;
+          line-height: 17px;
+        }
+      }
+    }
+    li:nth-of-type(1),li:nth-of-type(2),li:nth-of-type(3){
+      .tip{
+        width: 17px;
+        height: 17px;
+        background:url("../images/hotList/rx_ico.png") no-repeat;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        background-size: 17px auto;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+      }
+    }
+  }
+  >p{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+    color: #8f9bb2;
+    background-color: #d7e4ff;
+  }
+}

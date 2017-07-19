@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--引入第三方框架UI-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="css/base.less">
+    <link rel="stylesheet/less" href="css/xuanche.less">
+    <script src="lib/template.js"></script>
+    <script type="text/javascript" src="lib/less/less.js"></script>
+
+    <title>惠买车</title>
+</head>
+<body>
+<nav>
+    <div class="toleft">
+        <a href="index.html"><span class="glyphicon glyphicon-menu-left"></span></a>
+    </div>
+    <span>登录</span>
+    <div class="toright">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">选车</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">平行进口</a></li>
+                <li><a href="#">导购频道</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">手机app</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main">
+    <div class="top">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">热门品牌</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">条件选车</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <div class="brand">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_9_55.png" alt="">
+                                </div>
+                                <p>奥迪</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_8_55.png" alt="">
+                                </div>
+                                <p>大众</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_26_55.png" alt="">
+                                </div>
+                                <p>本田</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_7_55.png" alt="">
+                                </div>
+                                <p>丰田</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_157_55.png" alt="">
+                                </div>
+                                <p>宝骏</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_127_55.png" alt="">
+                                </div>
+                                <p>别克</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_136_55.png" alt="">
+                                </div>
+                                <p>长安</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_34_55.png" alt="">
+                                </div>
+                                <p>吉利</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_3_55.png" alt="">
+                                </div>
+                                <p>宝马</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="brandLogo">
+                                    <img src="images/index/logo/m_26_55.png" alt="">
+                                </div>
+                                <p>日产</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="profile">
+                <div class="catgroy">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">8万以内</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">8-12万</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">12-18万</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">18-25万</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">25-40万</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">40-80万</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">80万以上</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="suv">SUV</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="clo">紧凑型车</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">中型车</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">小型车</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">中大型车</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="list">
+        <div id="a">
+            <div class="list-top">A</div>
+            <ul class="list-down">
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="b">
+            <div class="list-top">B</div>
+            <ul class="list-down a">
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="c">
+            <div class="list-top">C</div>
+            <ul class="list-down a">
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="d">
+            <div class="list-top">D</div>
+            <ul class="list-down a">
+                <li>
+                <a href="#">
+                    <div class="pic">
+                        <img src="images/index/logo/m_9_55.png" alt="">
+                    </div>
+                    <span>奥迪</span>
+                </a>
+            </li>
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="e">
+            <div class="list-top">A</div>
+            <ul class="list-down a">
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="f">
+            <div class="list-top">A</div>
+            <ul class="list-down a">
+                <li>
+                    <a href="#">
+                        <div class="pic">
+                            <img src="images/index/logo/m_9_55.png" alt="">
+                        </div>
+                        <span>奥迪</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="aside">
+        <a>热门</a>
+        <a href="#a">a</a>
+        <a href="#b">b</a>
+        <a href="#c">c</a>
+        <a href="#d">d</a>
+        <a href="#e">e</a>
+        <a href="#f">f</a>
+        <a href="#">g</a>
+        <a href="#">h</a>
+        <a href="#">i</a>
+        <a href="#">j</a>
+        <a href="#">k</a>
+        <a href="#">l</a>
+        <a href="#">m</a>
+        <a href="#">n</a>
+        <a href="#">o</a>
+        <a href="#">p</a>
+        <a href="#">q</a>
+        <a href="#">r</a>
+        <a href="#">s</a>
+        <a href="#">t</a>
+        <a href="#">u</a>
+        <a href="#">v</a>
+        <a href="#">w</a>
+        <a href="#">x</a>
+        <a href="#">y</a>
+        <a href="#">z</a>
+    </div>
+</div>
+
+<footer>
+    <p>
+        <a href="javascript:;">登录</a>
+        <a href="javascript:;">注册</a>
+        <a href="javascript:;">下载app</a>
+    </p>
+    <a href="javascript:;">帮助中心</a>
+</footer>
+
+
+
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
